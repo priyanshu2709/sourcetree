@@ -1,0 +1,18 @@
+<aura:component controller="MyFirstLightningCompHelper" implements="force:appHostable" >
+    <aura:attribute name="test" type="string" />
+    
+    
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}"/>
+    <div class="testclass">{!v.test}</div>
+    <aura:attribute name="newAccount" type="Account[]"></aura:attribute>
+    <div class="container">
+    	<form class="slds-form--stacked">
+    		<div class="slds-form-element slds-is-required">
+   			 <div class="slds-form-element__control">
+    			<ui:inputText aura:id="expname" label="Account Name" class="slds-input" labelClass="slds-form-element__label" value="{!v.newAccount.Name}" required="true"/>
+
+             </div>
+            </div>
+        </form>
+    </div>
+</aura:component>
