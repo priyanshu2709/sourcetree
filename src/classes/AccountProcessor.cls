@@ -1,6 +1,5 @@
 public class AccountProcessor
 {
-    //comment updated
     @future
     public static void countContacts(list<id> lstAccid)
     {
