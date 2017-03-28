@@ -1,6 +1,6 @@
 public class AccountProcessor
 {
-    //comment added
+    //comment updated
     @future
     public static void countContacts(list<id> lstAccid)
     {
